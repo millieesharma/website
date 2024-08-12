@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milli Sharma - Portfolio</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #e0e0e0;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            color: #ff6f61;
+        }
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 15px;
+            color: #ff6f61;
+        }
+        footer {
+            background: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Milli Sharma</h1>
+        <p>Welcome to my portfolio</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio/Projects</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Write a brief introduction about yourself here. You can include your educational background, your career, your interests, or anything else you’d like to share.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio/Projects</h2>
+        <p>Showcase your work here. Include descriptions of your projects, links to them, and any other relevant details.</p>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Share your thoughts, experiences, or articles here. You can include links to your blog posts or write directly on this page.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+        <p>Phone: Your phone number</p>
+        <p>Social Media Links: 
+            <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a> | 
+            <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a> | 
+            <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Milli Sharma. All rights reserved.</p>
+    </footer>
+</body>
+</html>
